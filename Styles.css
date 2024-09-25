@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500%;
+    margin: 0%;
+    background: url(Images/italy\ flag.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+nav>ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0%;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin: 0%;    
+}
+
+nav>ul>li {
+    padding: 10px;
+}
+
+nav>ul>li:hover {
+    background-color: black;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+#active {
+    background-color: red;
+}
+
+main>div>img {
+    display: block;
+    margin: 2%;
+    width: 30%;
+}
+
+main>img {
+    width: 95%;
+    margin: 1%;
+}
+
+main>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main>h2 {
+    text-align: center;
+    background-color: rgb(255, 226, 99);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    background-image: url(Images/alfredo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    bottom: 0%;
+    position: fixed;
+}
